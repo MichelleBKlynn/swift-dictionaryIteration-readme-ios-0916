@@ -70,3 +70,30 @@ let movies = [
 for (franchise, titles) in movies {
     print("There are \(titles.count) movies in the \(franchise) series")
 }
+
+
+
+
+let hawaiianPlaces = [
+"Hana",
+"Hanalei",
+"Kihei",
+"Paia"
+]
+
+let nycHoods = [
+"UES",
+"West Village",
+"Dumbo"]
+
+let favoriteSpots = [
+"Hawaii": hawaiianPlaces,
+"New York City": nycHoods
+]
+
+for (beachy, city) in favoriteSpots {
+    print("My favorite places in Hawaii are \(hawaiianPlaces), while my favorite places in NYC are \(nycHoods)")
+}
+
+
+
